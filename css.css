@@ -1,0 +1,35 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 800px;
+    display: flex;
+    margin: 150px auto;
+    justify-content: center;
+    gap: 10px;
+}
+.input{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    transition: all .1s;
+}
+.sign{
+    width: 25px;
+}
+.mainBlock{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.btn{
+    padding: 0 10px;
+    font-size: 20px;
+}
+.input:hover{
+    background-color: gainsboro;
+    border: solid 1px black;
+}
